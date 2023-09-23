@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Quicksand:wght@300&display=swap');
+header {
+	background-color: white;
+	height: 135px;
+	padding: 10px 20px;
+}
+.logo{
+	display: block;
+	width: 10%;
+	margin: auto;
+	top: 10px;
+	left: 10px;
+}
+.subtitle{
+	color: #000000;
+	font-size: 16px;
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+form {
+	width: 480px;
+    padding: 10px;
+    margin:10px auto;
+}
+.search {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	width: 350px;
+    padding:10px;
+    background: white;
+    border:0px solid #dbdbdb;
+}
+.button {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+    position:relative;
+    padding:8px;
+    left:-8px;
+    border:2px solid #af8269;
+    background-color:#af8269;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:white;
+    color:#af8269;
+}
+.list-title{
+	font-size: 14px;
+}
+.home {
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+	gap: 20px;
+	padding: 20px;
+}
+.home-img {
+	display: block;
+	margin: auto;
+	width: 70%;
+	padding: 20px;
+}
+.list-title{
+	background-color: white;
+	color: #bf1c2d;
+	font-size: 20px;
+	padding: 10px;
+}
+.list {
+	background-color: white;
+	font-family: sans-serif;
+	color: #0d09ee;
+ 	display: grid;
+ 	grid-template-columns: 1fr 3fr;
+	gap: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+.list img {
+	width: 100px;
+	height: 100px;
+}
+.article{
+	background-color: white;
+	padding: 20px;
+}
+.title-post{
+	color: #bf1c2d;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+}
+.author-date{
+	font-family: 'Quicksand', sans-serif;
+	opacity: 80%;
+	font-size: 16px;
+}
+.content{
+	font-family: sans-serif;
+}
+nav{
+	background: #f5f5f5;
+}
+nav:after{
+	content: '';
+	clear: both;
+	display: table;
+}
+nav ul{
+	float: left;
+	list-style: none;
+	margin-left: 5px;
+	position: relative;
+}
+nav ul li{
+	display: inline-block;
+	background: #f5f5f5;
+}
+nav ul li a{
+	color: #af8269;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;line-height: 70px;
+	font-size: 18px;
+	padding: 10px;
+}
+nav ul ul{
+	position: absolute;
+	top: 70px;
+	opacity: 0;
+	visibility: hidden;
+	transition: top .3s ;
+}
+.dropdown{
+	font-size: 16px;
+}
+nav ul li:hover > ul{
+	top: 70px;
+	opacity: 1;
+	visibility: visible;
+}
+nav ul ul li{
+	position: relative;
+	margin: 0px;
+	width: 150px;
+	float: none;
+	display: list-items;
+	border-bottom: 1px solid rgba(0,0,0,0.3);
+}
+
+footer{
+	color: #af8269;
+	text-align: center;
+}
